@@ -10,7 +10,7 @@ const InfoWeather = () => {
                         <div class="col-6 col-xl-2">
                             <div className='box'>
                                 <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} />
+                                <img className='tomorrow' src={imagen} alt=""/>
                                 <div className='d-flex justify-content-evenly mt-3'>
                                     <p className='max'>16 °C</p>
                                     <p className='min'>11 °C</p>
@@ -20,7 +20,7 @@ const InfoWeather = () => {
                         <div class="col-6 col-xl-2">
                             <div className='box'>
                                 <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} />
+                                <img className='tomorrow' src={imagen} alt="" />
                                 <div className='d-flex justify-content-evenly mt-3'>
                                     <p className='max'>16 °C</p>
                                     <p className='min'>11 °C</p>
@@ -30,7 +30,7 @@ const InfoWeather = () => {
                         <div class="col-6 col-xl-2">
                             <div className='box'>
                                 <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} />
+                                <img className='tomorrow' src={imagen} alt=""/>
                                 <div className='d-flex justify-content-evenly mt-3'>
                                     <p className='max'>16 °C</p>
                                     <p className='min'>11 °C</p>
@@ -40,7 +40,7 @@ const InfoWeather = () => {
                         <div class="col-6 col-xl-2">
                             <div className='box'>
                                 <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} />
+                                <img className='tomorrow' src={imagen} alt="" />
                                 <div className='d-flex justify-content-evenly mt-3'>
                                     <p className='max'>16 °C</p>
                                     <p className='min'>11 °C</p>
@@ -50,7 +50,7 @@ const InfoWeather = () => {
                         <div class="col-6 col-xl-2">
                             <div className='box'>
                                 <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} />
+                                <img className='tomorrow' src={imagen} alt="" />
                                 <div className='d-flex justify-content-evenly mt-3'>
                                     <p className='max'>16 °C</p>
                                     <p className='min'>11 °C</p>

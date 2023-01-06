@@ -11,7 +11,7 @@ const SideBar = () => {
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0z" />
                 </svg></button>
             </div>
-            <img className='img' src={imagen} />
+            <img className='img' src={imagen} alt="" />
             <p className='grade'>15<span className='grades'>°C</span></p>
             <p className='weather'>Shower</p>
             <p className='day'>Today . Fri, 5 Jun</p>

@@ -70,8 +70,8 @@ img{
   align-items: center;   
 }
 
-.contenedor1{  width: 60%;
-  
+.contenedor1{  
+  width: 50%;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +119,20 @@ img{
 @media screen and (min-width: 762px) {
   .h{
     height: 100vh;
-  }  
+  }
+  
+  .bkg{
+    margin-top: 50px;
+    height: 100vh;    
+  }
+
+  .contenedor{
+    width: 80%;
+  }
+
+  .contenedor1{
+    width: 40%;
+  }
 
   .box1{
     width: 100%;

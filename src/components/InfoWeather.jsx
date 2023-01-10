@@ -3,9 +3,9 @@ import imagen from "../images/LightCloud.png";
 
 const InfoWeather = () => {
   return (
-    <div className="d-flex flex-column justify-content-around align-items-center border">
+    <div className="d-flex flex-column justify-content-around align-items-center">
       <div class="container d-flex justify-content-around align-items-center text-center text-white">
-        <div className="contenedor border">
+        <div className="contenedor">
           <div class="row justify-content-center">
             <div class="col-6 col-xl-2" style={{ width: 120 }}>
               <div className="box">
@@ -58,7 +58,7 @@ const InfoWeather = () => {
       </div>
       <div class="container d-flex justify-content-center align-items-center flex-column text-center text-white">
         <p className="mt-4 fs-1">Today’s Hightlights </p>
-        <div className="contenedor1 border">
+        <div className="contenedor1">
           <div class="row justify-content-center">
             <div class="col-12 col-xl-6" style={{ width: 180 }}>
               <div className="box1">

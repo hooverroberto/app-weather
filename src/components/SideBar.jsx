@@ -11,13 +11,13 @@ const SideBar = () => {
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0z" />
                 </svg></button>
             </div>
-            <div className="d-flex flex-column justify-content-around align-items-center border" style={{height: 400}}>
+            <div className="d-flex flex-column justify-content-around align-items-center" style={{height: 400}}>
                 <img src={imagen} alt="" />
                 <h2 className='font-grade'>15<span className='grades'>°C</span></h2>
                 <p className='weather'>Shower</p>
                 <p className='day'>Today . Fri, 5 Jun</p>
             </div>
-            <div className='border'>
+            <div>
                 <p className='place'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />

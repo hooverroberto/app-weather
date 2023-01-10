@@ -58,7 +58,8 @@ const SideBar = () => {
                     
                 
                 <h2 className='font-grade'>{((datos?.main?.temp) - 273.15).toFixed(0)}<span className='grades'>°C</span></h2>
-                <p className='weather'>{datos?.weather[0]?.main}</p>
+                <p className='weather'>Clouds</p>
+                {/* {datos?.weather[0]?.main} */}
                 <p className='day'>Today . Fri, 5 Jun</p>
             </div>
             <div>

@@ -1,116 +1,98 @@
-import React from 'react'
-import imagen from '../images/LightCloud.png'
+import React from "react";
+import imagen from "../images/LightCloud.png";
 
 const InfoWeather = () => {
-    return (
-        <div className='h'>            
-            <div class="container d-flex flex-wrap text-center text-white">
-                <div className='contenedor'>
-                    <div class="row alineacion">                        
-                        <div class="col-6 col-xl-2">
-                            <div className='box'>
-                                <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} alt=""/>
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>16 °C</p>
-                                    <p className='min'>11 °C</p>
-                                </div>
-                            </div>
-                        </div>  
-                        <div class="col-6 col-xl-2">
-                            <div className='box'>
-                                <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} alt="" />
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>16 °C</p>
-                                    <p className='min'>11 °C</p>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="col-6 col-xl-2">
-                            <div className='box'>
-                                <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} alt=""/>
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>16 °C</p>
-                                    <p className='min'>11 °C</p>
-                                </div>
-                            </div>
-                        </div>  
-                        <div class="col-6 col-xl-2">
-                            <div className='box'>
-                                <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} alt="" />
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>16 °C</p>
-                                    <p className='min'>11 °C</p>
-                                </div>
-                            </div>
-                        </div>  
-                        <div class="col-6 col-xl-2">
-                            <div className='box'>
-                                <p className='mt-3'>Tomorrow</p>
-                                <img className='tomorrow' src={imagen} alt="" />
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>16 °C</p>
-                                    <p className='min'>11 °C</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">                           
-                        </div>                       
-                    </div>                    
+  return (
+    <div className="d-flex flex-column justify-content-around align-items-center border">
+      <div class="container d-flex justify-content-around align-items-center text-center text-white">
+        <div className="contenedor border">
+          <div class="row justify-content-center">
+            <div class="col-6 col-xl-2" style={{ width: 120 }}>
+              <div className="box">
+                <p className="mt-3">Tomorrow</p>
+                <img className="tomorrow" src={imagen} alt="" />
+                <div className="d-flex justify-content-center mt-3">
+                  <p className="max">16 °C - 13 °C</p>
                 </div>
+              </div>
             </div>
-            <div class="container d-flex flex-wrap text-center text-white">
-                <p className='mt-4 fs-1'>Today’s Hightlights </p>
-                <div className='contenedor alineacion'>
-                    <div class="row">                        
-                        <div class="col-12 col-xl-6">
-                            <div className='box1'>
-                                <p className='mt-3'>Wins Status</p>
-                                <p className='millas'>7mph</p>
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>Play</p>
-                                    <p className='min'>WSW</p>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="col-12 col-xl-6">
-                            <div className='box1'>
-                                <p className='mt-3'>Wins Status</p>
-                                <p className='millas'>7mph</p>
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>Play</p>
-                                    <p className='min'>WSW</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-xl-6">
-                            <div className='box1'>
-                                <p className='mt-3'>Wins Status</p>
-                                <p className='millas'>7mph</p>
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>Play</p>
-                                    <p className='min'>WSW</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-xl-6">
-                            <div className='box1'>
-                                <p className='mt-3'>Wins Status</p>
-                                <p className='millas'>7mph</p>
-                                <div className='d-flex justify-content-evenly mt-3'>
-                                    <p className='max'>Play</p>
-                                    <p className='min'>WSW</p>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>                    
+            <div class="col-6 col-xl-2" style={{ width: 120 }}>
+              <div className="box">
+                <p className="mt-3">Tomorrow</p>
+                <img className="tomorrow" src={imagen} alt="" />
+                <div className="d-flex justify-content-evenly mt-3">
+                  <p className="max">16 °C - 13 °C</p>
                 </div>
+              </div>
             </div>
+            <div class="col-6 col-xl-2" style={{ width: 120 }}>
+              <div className="box">
+                <p className="mt-3">Tomorrow</p>
+                <img className="tomorrow" src={imagen} alt="" />
+                <div className="d-flex justify-content-evenly mt-3">
+                  <p className="max">16 °C - 13 °C</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-2" style={{ width: 120 }}>
+              <div className="box">
+                <p className="mt-3">Tomorrow</p>
+                <img className="tomorrow" src={imagen} alt="" />
+                <div className="d-flex justify-content-evenly mt-3">
+                  <p className="max">16 °C - 13 °C</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-2" style={{ width: 120 }}>
+              <div className="box">
+                <p className="mt-3">Tomorrow</p>
+                <img className="tomorrow" src={imagen} alt="" />
+                <div className="d-flex justify-content-center mt-3">
+                  <p className="max">16 °C - 13 °C</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6"></div>
+          </div>
         </div>
-    )
-}
+      </div>
+      <div class="container d-flex justify-content-center align-items-center flex-column text-center text-white">
+        <p className="mt-4 fs-1">Today’s Hightlights </p>
+        <div className="contenedor1 border">
+          <div class="row justify-content-center">
+            <div class="col-12 col-xl-6" style={{ width: 180 }}>
+              <div className="box1">
+                <p>Wins Status</p>
+                <p className="millas">7mph</p>
+                <p>Play</p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6" style={{ width: 180 }}>
+              <div className="box1">
+                <p>Wins Status</p>
+                <p className="millas">7mph</p>
+                <p>Play</p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6" style={{ width: 180 }}>
+              <div className="box1">
+                <p>Wins Status</p>
+                <p className="millas">7mph</p>
+                <p>Play</p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6" style={{ width: 180 }}>
+              <div className="box1">
+                <p>Wins Status</p>
+                <p className="millas">7mph</p>
+                <p>Play</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default InfoWeather;

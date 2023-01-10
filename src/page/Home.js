@@ -6,14 +6,14 @@ import '../App.css'
 
 const Home = () => {
     return (
-    <div className='text-center p'>
-        <div className='row'>
-        <div className="col-lg-4 col-md-12 p-0 text-white">
-            <SideBar />
-        </div>
-        <div className='col-lg-8 col-md-12 p-0'>
-            <InfoWeather />
-        </div>
+    <div className='text-center'>
+        <div className='row align-items-center'>            
+                <div className="col-lg-4 col-md-12 p-0 text-white">
+                    <SideBar />
+                </div>
+                <div className='col-lg-8 col-md-12 p-0'>
+                    <InfoWeather />
+                </div>            
         </div>        
     </div >
   )

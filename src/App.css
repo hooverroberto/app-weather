@@ -12,17 +12,13 @@ body{
 }
 
 .h{
-  height: auto;  
+  height: 100vh;  
   background: rgb(4, 0, 30);  
 }
 
 img{
-  margin-top: 100px;
-  width: 202px;
-}
-
-.alto{
-  margin-top: 50px;
+  /* margin-top: 100px; */
+  width: 120px;
 }
 
 .bg{
@@ -30,35 +26,32 @@ img{
   background-image: linear-gradient(rgba(1, 1, 34, 0.9), rgba(1, 1, 34, 0.9)), url(./images/Cloud-background.png);
 }
 
-.grade{ 
-  margin-top: 30px;
+.font-grade{  
   font-family: 'Raleway';
   font-style: normal;
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 500;
 }
 
 .grades{ 
   color: #A09FB1;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
-.weather{
-  margin-top: 40px;
+.weather{  
   color: #A09FB1;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
 }
 
-.day{  
-  margin-top: 50px; 
+.day{   
   color: #A09FB1;
 }
 
 .place{
-  margin-top: 50px;
+  /* margin-top: 50px; */
   color: #A09FB1; 
   display: flex;
   align-items: center;
@@ -69,13 +62,19 @@ img{
 }
 
 .contenedor{
-  width: 100%;
+  width: 60%;
   padding: 10px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin: 30px auto;
-  justify-content: center;   
+  justify-content: center;
+  align-items: center;   
+}
+
+.contenedor1{  width: 60%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .alineacion{
@@ -101,8 +100,10 @@ img{
   align-items: center;
   width: 100%;
   background: #1E213A;  
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tomorrow{
@@ -115,9 +116,9 @@ img{
 }
 
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 762px) {
   .h{
-    height: auto;
+    height: 100vh;
   }  
 
   .box1{
